@@ -1,49 +1,32 @@
-tourism-in-saudi-arabia 
+# tourism-in-saudi-arabia 🤖🇸🇦  
+**Tourism in Saudi Arabia Chatbot**  
 
-Tourism in Saudi Arabia Chatbot
+---
 
-Overview
+## 📌 Overview  
+An interactive chatbot built with **Streamlit** and **Regex** to explore famous tourist attractions across Saudi Arabia.  
+The bot supports **Arabic** and provides suggestions for:  
+**AlUla, Riyadh, Jeddah, Qassim, and Abha.**
 
-An interactive chatbot built with Streamlit and Regex that helps users explore famous tourist attractions in Saudi Arabia.
-The bot supports Arabic and provides suggestions for AlUla, Riyadh, Jeddah, Qassim, and Abha.
+---
 
-Features
+## ✨ Features  
+- 💬 **Interactive chat interface** with history (Streamlit-based)  
+- 🧠 **Regex-powered responses** (no machine learning needed)  
+- 🗺️ **Tourist attractions by city** (predefined knowledge base)  
+- 🧭 **Multi-page navigation** (Home / Chat / Team)  
+- 🧹 **Clear chat option** for a fresh start  
 
-💬 Chat interface with history (built on Streamlit)
+---
 
-🧠 Regex-based responses (no ML required)
-
-🗺️ Tourist attractions per city
-
-🧭 Multi-page app (Home / Chat / Team)
-
-🧹 Clear chat option
-
-Installation
+## ⚙️ Installation  
+```bash
+# Clone the repository
 git clone https://github.com/YOURNAME/tourism-in-saudi-arabia.git
 cd tourism-in-saudi-arabia
+
+# Install dependencies
 pip install streamlit
+
+# Run the app
 streamlit run app.py
-
-Project Structure
-tourism-in-saudi-arabia/
-├─ app.py              # main chatbot code
-├─ README.md           # project documentation
-└─ requirements.txt    # dependencies
-
-
-requirements.txt
-
-streamlit
-
-Team
-
-Abdulaziz – AlUla module
-
-Wasan – Jeddah module
-
-Abdulmohsen – Qassim module
-
-Alhanouf – Riyadh module
-
-Mohannad – Abha module
